@@ -32,3 +32,6 @@ Knowledge that will need:
                                              2) 400:Bad Request
                                              3) 403:Forbidden
                                              4) 404:Not Found
+                                             
+To install BeautifulSoup run: pip3 install beautifulsoup4.
+Tag objects: A Tag object corresponds to an XML or HTML tag in the original document. They are returned by methods such asfind() or find_all().
