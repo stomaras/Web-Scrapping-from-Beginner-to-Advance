@@ -26,3 +26,9 @@ urllib package : 1)request : used to open URLs
                  3)error : Contains several error classes for use by the request module
                  4)parse: Variety of functions for breaking up a URL into meaningful pieces like the sceme 
                  5)robotparser : robots.txt files for what permissions are granted to bots and crawlers 
+                 
+Knowledge that will need:
+                          HTTP Status Codes: 1) 200:OK
+                                             2) 400:Bad Request
+                                             3) 403:Forbidden
+                                             4) 404:Not Found
