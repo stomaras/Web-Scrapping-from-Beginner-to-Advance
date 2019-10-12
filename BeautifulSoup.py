@@ -16,5 +16,8 @@ else:
 html = r.content
 soup = BeautifulSoup(html, 'html.parser')
 
-print(soup.prettify())
+#print(soup.prettify())
+review_titles_list = soup.find_all("h6")
+for review_title in review_titles_list:
+    print(review_title.get_text())
 
